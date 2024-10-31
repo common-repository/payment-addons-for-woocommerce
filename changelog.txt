@@ -1,0 +1,57 @@
+= 1.13.2 - 2024-07-28
+* fix: bank transfer doesn't work.
+* fix: stripe class exists already.
+
+= 1.13.0 - 2024-07-14
+* feat: enhance woocommerce checkout redirection line items details.
+* fix: discount not work for woocommerce.
+
+= 1.12.0 - 2024-07-04
+* fix: SEPA Direct Debit payments.
+* fix: add more payment methods in list.
+* fix: payment method order not work in checkout form.
+* refactor: refactor verify intent.
+
+= 1.11.0 - 2024-06-24
+* feat: add saved card list for checkout form & order pay.
+
+= 1.10.0 - 2024-06-20
+* feat: add refund support.
+
+= 1.9.2 - 2024-06-19
+* fix: express checkout error display.
+* fix: order pay not work for checkout redirection.
+
+= 1.9.0 - 2024-06-05
+* feat: add stripe auto-tax for checkout redirection.
+
+= 1.8.0 - 2024-06-03
+* feat: add integration support for official woocommerce-subscriptions.
+
+= 1.7.0 - 2024-05-24
+* feat: add saved card option.
+
+= 1.6.3 - 2024-05-16
+* fix: no such customer when api key changed.
+
+= 1.6.2 - 2024-05-12
+* fix: use woocommerce logger.
+
+= 1.6.0 - 2024-05-05
+* feat: add order pay page support.
+* fix: webhook link issue.
+
+= 1.5.0 - 2024-04-08
+* feat: add project image for stripe checkout redirect.
+* feat: split line items and add tax codes support.
+* feat: create customer for checkout redirect.
+
+= 1.4.0 - 2024-04-04 =
+feat: add woocommerce block support for express checkout.
+
+= 1.3.0 - 2024-03-31 =
+feat: add woocommerce block support for stripe-redirect.
+feat: add woocommerce block support for checkout form.
+
+= 1.0.0 - 2024-02-29 =
+First Release

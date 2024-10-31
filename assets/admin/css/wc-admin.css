@@ -1,0 +1,48 @@
+.wspa-payment-method-content {
+  display: flex;
+  justify-content: space-between;
+}
+.wspa-payment-method-content .payment-method-preview,
+.wspa-payment-method-content .payment-method-settings {
+  width: 50%;
+}
+
+.wspa-payment-method-content .payment-method-preview {
+  text-align: center;
+}
+
+.wspa-payment-method-content .payment-method-preview img {
+  max-width: 500px;
+}
+
+.wspa-express-checkout-preview {
+  position: absolute;
+  bottom: 180px;
+  right: 40px;
+}
+
+.wspa-express-checkout-preview img {
+  max-width: 500px;
+}
+
+/* 1024 - Tablets */
+@media screen and (max-width:1024px) {
+  .wspa-payment-method-content {
+    flex-direction: column;
+  }
+  .wspa-payment-method-content .payment-method-preview,
+  .wspa-payment-method-content .payment-method-settings {
+    width: 100%;
+  }
+
+  .wspa-express-checkout-preview {
+    position: relative;
+    bottom: auto;
+    right: auto;  
+  }
+}
+
+/* 768 - Mobile */
+@media screen and (max-width:768px) {
+
+}
